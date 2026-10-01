@@ -1,0 +1,21 @@
+name: build
+
+# Build check on Windy Git CI (self-hosted). No secrets and no deploy:
+# windytalk.com ships by hand with wrangler (see RUNBOOK.md). The
+# old GitHub Actions deploy could not run once the repo went private.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: [self-hosted, linux, x64]
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+      - run: npm run build
