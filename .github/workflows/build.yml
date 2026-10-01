@@ -10,6 +10,8 @@ on:
 
 jobs:
   build:
+    # PUBLIC repo + self-hosted runner: never run a FORK's pull request on our hardware (runner guard, Boss 10-01).
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: [self-hosted, linux, x64]
     timeout-minutes: 10
     steps:
