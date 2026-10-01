@@ -2,7 +2,7 @@ const features = [
   { icon: '🎙️', title: 'Hands-free conversation', body: 'A real back-and-forth by voice: it hears you, thinks, and speaks, then listens again.' },
   { icon: '✋', title: 'Natural interruptions', body: 'Talk over it to change your mind mid-answer. It stops speaking and takes the new question.' },
   { icon: '🧠', title: 'Powered by Windy Mind', body: 'The thinking runs through Windy Mind, the one door to AI in the Windy family, on your own account.' },
-  { icon: '🔐', title: 'One Windy login', body: 'The same sign-in as Windy Word, Chat, Mail and the rest. Agents with an Eternitas credential are honored too.' },
+  { icon: '🔐', title: 'One Windy login', body: 'The same sign-in as Windy Word, Chat, Mail and the rest.' },
   { icon: '💬', title: 'Honest when it is stuck', body: 'If the brain is slow or unreachable it tells you so out loud, instead of leaving you in silence.' },
   { icon: '🧩', title: 'Built to be shared', body: 'The same voice engine is being prepared for Windy Chat calls and, later, phone calls with your agent.' },
 ];
