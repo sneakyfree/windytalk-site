@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
-const faqs = [
+// Exported for the FAQPage JSON-LD written at build time (scripts/prerender.mjs): one copy of the text.
+export const faqs = [
   { q: 'Do I need a separate account?', a: 'No. Windy Talk uses your Windy account, the same one for every Windy product.' },
   { q: 'Which computers does it run on?', a: 'macOS and Linux (.deb) today. Windows and a Linux AppImage are not available yet.' },
   { q: 'What does it cost?', a: 'It is free with a Windy account during early access. If that ever changes, we will say so here first.' },
