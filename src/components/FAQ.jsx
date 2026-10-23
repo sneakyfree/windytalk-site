@@ -19,11 +19,12 @@ export default function FAQ() {
         <div className="space-y-3">
           {faqs.map((f, i) => (
             <div key={f.q} className="bg-windy-gray/40 rounded-xl border border-gray-800/40">
-              <button onClick={() => setOpen(open === i ? null : i)} className="w-full text-left p-5 flex justify-between items-center">
+              <button onClick={() => setOpen(open === i ? null : i)} aria-expanded={open === i} className="w-full text-left p-5 flex justify-between items-center">
                 <span className="font-semibold text-white">{f.q}</span>
                 <span className="text-windy-cyan text-xl">{open === i ? '−' : '+'}</span>
               </button>
-              {open === i && <p className="px-5 pb-5 text-gray-400 text-sm leading-relaxed">{f.a}</p>}
+              {/* Always in the HTML (crawlers read the pre-rendered page); hidden until opened. */}
+              <p hidden={open !== i} className="px-5 pb-5 text-gray-400 text-sm leading-relaxed">{f.a}</p>
             </div>
           ))}
         </div>
