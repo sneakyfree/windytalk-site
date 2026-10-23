@@ -1,0 +1,16 @@
+# Windy Talk
+
+> The voice of the Windy ecosystem: talk to your Windy agent out loud and hear it answer, hands-free. Desktop app for macOS and Linux (.deb), in early access, free with a Windy account.
+
+- It listens while the app is open, notices when you stop speaking, and answers in a natural voice. Talk over it and it stops to listen.
+- The thinking runs through Windy Mind on your own Windy account. There is no separate Talk login.
+- Voice conversations in English today.
+- No audio is ever stored. Conversation text is deleted after 7 days without use, and closing your Windy account erases it.
+
+## Links
+- [Windy Talk](https://windytalk.com/)
+- [Get the desktop app](https://windyword.ai/#download)
+- [Sign in with Windy](https://app.windyword.ai/auth?ref=windytalk&door=talk)
+- [Windy privacy policy](https://app.windyword.ai/privacy)
+- [Terms of Service](https://app.windyword.ai/terms)
+- [Windy Word](https://windyword.ai)
