@@ -8,9 +8,12 @@ Grant's gates before the big marketing push: (1) Grant + a few friends use every
 TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or GO that names Talk goes in here the SAME DAY.
 
 ## Now (this week)
-- [Talk, added 11-04] Keep windytalk.com true to the running engine. Done means: every page line matches windytalk docs/RUNBOOK.md and the live SEO audit stays PASS 6/6.
-- [Talk, added 11-07] NAME ALIGNMENT (Boss 2026-11-06T22:31:24Z, Git leads): windytalk-site -> windy-talk-site. By FRI 11-13 18:00Z give Git the COUNT of references to the old name (Pages Git link, CI, uptime checks, docs). Renames from MON 11-16 in Git's batches. Done means: count on the BOARD.
-- [Talk, added 11-07] Windstorm Labs address (Grant 11-06: the Lehi address for every public-facing address): the site shows NO postal address today (Footer: "© 2026 Windstorm Labs LLC." only). If one is ever added, it reads windy-contracts registry/company.json. Done means: stays true.
+Format: item. Done means: ... — OWNER · ADDED · DUE · STATUS · SOURCE
+
+- **Keep windytalk.com true to the running engine.** Done means: every page line matches windytalk docs/RUNBOOK.md; Hub's SEO audit stays PASS 6/6. — Talk · 11-04 · standing · ONGOING · Grant 11-04
+- **NAME ALIGNMENT** windytalk-site -> windy-talk-site: give Git the COUNT of old-name references (Pages Git link, CI, uptime checks, docs). Renames from MON 11-16 in Git's batches. Done means: count on the BOARD. — Talk (Git leads) · 11-07 · FRI 11-13 18:00Z · OPEN · Boss BOARD 2026-11-06T22:31:24Z
+- **Windstorm Labs address**: the site shows NO postal address (Footer: "© 2026 Windstorm Labs LLC." only). If one is ever added, it reads windy-contracts registry/company.json. Done means: stays true. — Talk · 11-07 · standing · TRUE today · Grant via Boss BOARD 2026-11-06T23:29:54Z
+- **GAP ANALYSIS** (with windytalk, one page ~/gap-analysis-2026-11-07/windy-talk.html). Done means: page up + BOARD line. — Talk · 11-07 · SAT 11-07 17:50Z · OPEN · Boss BOARD 2026-11-07T15:37:16Z
 
 ### Real state (measured 2026-11-04)
 - **windytalk.com is LIVE** (Cloudflare Pages project `windytalk`), main `216f32be` (10-23).
