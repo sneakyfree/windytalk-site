@@ -8,12 +8,14 @@ Grant's gates before the big marketing push: (1) Grant + a few friends use every
 TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or GO that names Talk goes in here the SAME DAY.
 
 ## Now (this week)
-Format: item. Done means: ... — OWNER · ADDED · DUE · STATUS · SOURCE
+Format (Boss labelled standard 2026-11-07T00:02:22Z): - [ ] <what> · OWNER · ADDED · DUE · STATUS · SOURCE, detail as sub-bullets.
 
-- **Keep windytalk.com true to the running engine.** Done means: every page line matches windytalk docs/RUNBOOK.md; Hub's SEO audit stays PASS 6/6. — Talk · 11-04 · standing · ONGOING · Grant 11-04
-- **NAME ALIGNMENT** windytalk-site -> windy-talk-site: give Git the COUNT of old-name references (Pages Git link, CI, uptime checks, docs). Renames from MON 11-16 in Git's batches. Done means: count on the BOARD. — Talk (Git leads) · 11-07 · FRI 11-13 18:00Z · OPEN · Boss BOARD 2026-11-06T22:31:24Z
-- **Windstorm Labs address**: the site shows NO postal address (Footer: "© 2026 Windstorm Labs LLC." only). If one is ever added, it reads windy-contracts registry/company.json. Done means: stays true. — Talk · 11-07 · standing · TRUE today · Grant via Boss BOARD 2026-11-06T23:29:54Z
-- **GAP ANALYSIS** (with windytalk, one page ~/gap-analysis-2026-11-07/windy-talk.html). Done means: page up + BOARD line. — Talk · 11-07 · SAT 11-07 17:50Z · OPEN · Boss BOARD 2026-11-07T15:37:16Z
+- [ ] Deploy #7 (truth fix: no Talk download exists; first audio "within about two seconds") · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-08 (SUN 16:25-16:45Z) · STATUS waiting on Boss stamp + merge · SOURCE Boss BOARD 2026-11-07T16:28:33Z (2)
+  - Pages deploy by hand (RUNBOOK): preview first, then main; rollback = redeploy main a8de4c9e's dist/. Then Hub's SEO audit.
+- [ ] UTM at sign-up: Sign in link `?ref=windytalk` -> `utm_source=windytalk&utm_medium=referral&utm_campaign=ecosystem` (door=talk kept) · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-13 (PR) · STATUS waiting on Hub read of #8; merges only after #7 is live · SOURCE Boss BOARD 2026-11-07T15:48:21Z (7)(c); Marketing Boss (no TLD)
+- [ ] NAME ALIGNMENT windytalk-site -> windy-talk-site (counts given to Git 11-07; Pages has no Git link) · OWNER Windy Git (Talk updates its clone origins) · ADDED 2026-11-07 · DUE none (batches from MON 11-16) · STATUS waiting on Windy Git · SOURCE Boss BOARD 2026-11-06T22:31:24Z
+- [ ] Keep windytalk.com true to the running engine (every line matches windytalk docs/RUNBOOK.md; Hub's SEO audit PASS 6/6) · OWNER Windy Talk · ADDED 2026-11-04 · DUE none (standing) · STATUS now · SOURCE Grant 11-04
+- [ ] Windstorm Labs address: none shown today (Footer: "© 2026 Windstorm Labs LLC." only); if one is ever added, it reads windy-contracts registry/company.json · OWNER Windy Talk · ADDED 2026-11-07 · DUE none (standing) · STATUS now · SOURCE Grant via Boss BOARD 2026-11-06T23:29:54Z
 
 ### Real state (measured 2026-11-04)
 - **windytalk.com is LIVE** (Cloudflare Pages project `windytalk`), main `216f32be` (10-23).
@@ -31,6 +33,7 @@ Format: item. Done means: ... — OWNER · ADDED · DUE · STATUS · SOURCE
 - None besides `main`. (`fix/fork-pr-runner-guard` @ ad564037 was merged as PR #1; tagged `archive/fix-fork-pr-runner-guard-20261104` and deleted 11-04.)
 
 ## Done (last 30 days)
+- 11-07 gap page published (~/gap-analysis-2026-11-07/windy-talk.html, covers this site). Name counts given to Git. Lehi K8 withdrawn by Legal.
 - 11-07 Legal's Lehi list K8 withdrawn (false positive in the minified bundle); no address in any commit.
 - 11-04 TODO.md landed (#4).
 - 11-04 merged branch `fix/fork-pr-runner-guard` archived (tag) and deleted.
