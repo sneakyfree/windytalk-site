@@ -2,9 +2,15 @@
 
 Read this first at every session start and turnover; add every promise the same turn (Grant, 11-04).
 
+## WE ARE LIVE (Grant standing rule, BOARD 2026-11-06T23:29:54Z)
+"Wire everything up like we're live." Build, wire and ship for REAL, at full speed. What does NOT change: don't break what's live (every change has a way back), say only what's true, consent is a human act, secrets stay in the lockbox, Boss's GO by sha for production.
+Grant's gates before the big marketing push: (1) Grant + a few friends use everything and say "really good, really solid"; (2) back-end record-keeping works across the repos (CFO ledger, Legal e-sign/archive/recall, Support email, smooth sign-up); (3) THEN an attorney reviews the legal documents; (4) THEN every token on every platform is rolled (Vault leads); (5) THEN the marketing money.
+TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or GO that names Talk goes in here the SAME DAY.
+
 ## Now (this week)
 - [Talk, added 11-04] Keep windytalk.com true to the running engine. Done means: every page line matches windytalk docs/RUNBOOK.md and the live SEO audit stays PASS 6/6.
-- [Talk, added 11-04] This TODO.md landed. Done means: merged on green before 11-09 12:00Z.
+- [Talk, added 11-07] NAME ALIGNMENT (Boss 2026-11-06T22:31:24Z, Git leads): windytalk-site -> windy-talk-site. By FRI 11-13 18:00Z give Git the COUNT of references to the old name (Pages Git link, CI, uptime checks, docs). Renames from MON 11-16 in Git's batches. Done means: count on the BOARD.
+- [Talk, added 11-07] Windstorm Labs address (Grant 11-06: the Lehi address for every public-facing address): the site shows NO postal address today (Footer: "© 2026 Windstorm Labs LLC." only). If one is ever added, it reads windy-contracts registry/company.json. Done means: stays true.
 
 ### Real state (measured 2026-11-04)
 - **windytalk.com is LIVE** (Cloudflare Pages project `windytalk`), main `216f32be` (10-23).
@@ -22,5 +28,7 @@ Read this first at every session start and turnover; add every promise the same 
 - None besides `main`. (`fix/fork-pr-runner-guard` @ ad564037 was merged as PR #1; tagged `archive/fix-fork-pr-runner-guard-20261104` and deleted 11-04.)
 
 ## Done (last 30 days)
+- 11-07 Legal's Lehi list K8 withdrawn (false positive in the minified bundle); no address in any commit.
+- 11-04 TODO.md landed (#4).
 - 11-04 merged branch `fix/fork-pr-runner-guard` archived (tag) and deleted.
 - 10-23 #2 + #3 live: SEO pre-render + criteria 1-8, FAQ answers in the HTML.
