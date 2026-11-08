@@ -10,8 +10,6 @@ TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or G
 ## Now (this week)
 Format (Boss labelled standard 2026-11-07T00:02:22Z): - [ ] <what> · OWNER · ADDED · DUE · STATUS · SOURCE, detail as sub-bullets.
 
-- [ ] UTM at sign-up: Sign in link `?ref=windytalk` -> `utm_source=windytalk&utm_medium=referral&utm_campaign=ecosystem` (door=talk kept) · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-13 (PR) · STATUS now (#7 live 11-08; PR #8 re-based on main, needs Hub re-read; its Pages deploy = its own Boss GO) · SOURCE Boss BOARD 2026-11-07T15:48:21Z (7)(c); Marketing Boss (no TLD)
-  - Hub 11-07: `?ref=` is parsed as an 8-letter referral code (account-server referral-credits.ts), so `ref=windytalk` was never real; dropping it loses nothing. The sign-in doorway does not RECORD utm_* yet (Hub's UTM PR, DUE 2026-11-13): carried, not counted until then.
 - [ ] NAME ALIGNMENT windytalk-site -> windy-talk-site (counts given to Git 11-07; Pages has no Git link) · OWNER Windy Git (Talk updates its clone origins) · ADDED 2026-11-07 · DUE none (batches from MON 11-16) · STATUS waiting on Windy Git · SOURCE Boss BOARD 2026-11-06T22:31:24Z
 - [ ] Keep windytalk.com true to the running engine (every line matches windytalk docs/RUNBOOK.md; Hub's SEO audit PASS 6/6) · OWNER Windy Talk · ADDED 2026-11-04 · DUE none (standing) · STATUS now · SOURCE Grant 11-04
 - [ ] Windstorm Labs address: none shown today (Footer: "© 2026 Windstorm Labs LLC." only); if one is ever added, it reads windy-contracts registry/company.json · OWNER Windy Talk · ADDED 2026-11-07 · DUE none (standing) · STATUS now · SOURCE Grant via Boss BOARD 2026-11-06T23:29:54Z
@@ -32,6 +30,8 @@ Format (Boss labelled standard 2026-11-07T00:02:22Z): - [ ] <what> · OWNER · A
 - None besides `main`. (`fix/fork-pr-runner-guard` @ ad564037 was merged as PR #1; tagged `archive/fix-fork-pr-runner-guard-20261104` and deleted 11-04.)
 
 ## Done (last 30 days)
+- [x] UTM at sign-up: Sign in link `?ref=windytalk` -> `utm_source=windytalk&utm_medium=referral&utm_campaign=ecosystem` (door=talk kept) · OWNER Windy Talk · ADDED 2026-11-07 · DONE 2026-11-08 18:40:39Z · PROOF Boss GO BY SHA c303006b (BOARD 2026-11-08T18:24:47Z (2)); BEFORE 2026-11-08T18:40:08Z; Pages 01159f06 at c303006b (preview aff37b4f first); AFTER 2026-11-08T18:41:07Z (sign-in URL 200, 0 ref=windytalk served, 13/13 links 200)
+  - Hub 11-07: `?ref=` is parsed as an 8-letter referral code (account-server referral-credits.ts), so `ref=windytalk` was never real; dropping it loses nothing. The sign-in doorway does not RECORD utm_* yet (Hub's UTM PR, DUE 2026-11-13): carried, not counted until then.
 - [x] Deploy #7 (truth fix: no Talk download exists; first audio "within about two seconds") · OWNER Windy Talk · ADDED 2026-11-07 · DONE 2026-11-08 16:25:42Z · PROOF Boss GO BY SHA 02a6aad2 (BOARD 2026-11-08T16:07:47Z); BEFORE 2026-11-08T16:25:09Z; Pages 81ddfd3b at 02a6aad2 (preview e50ecac3 first); AFTER 2026-11-08T16:26:03Z (outside check, 13/13 links 200; Boss accepted 16:28:15Z); Hub SEO audit PASS 6/6 2026-11-08T16:27:56Z (first Hub baseline); Boss's condition met by Talk #151 AFTER 2026-11-08T16:06:31Z
 - 11-07 gap page published (~/gap-analysis-2026-11-07/windy-talk.html, covers this site). Name counts given to Git. Lehi K8 withdrawn by Legal.
 - 11-07 Legal's Lehi list K8 withdrawn (false positive in the minified bundle); no address in any commit.
