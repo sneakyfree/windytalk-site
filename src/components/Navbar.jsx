@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SIGN_IN, DOWNLOAD } from '../links';
+import { SIGN_IN, STATUS } from '../links';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -22,8 +22,8 @@ export default function Navbar() {
             <a key={l.name} href={l.href} className="text-sm text-gray-400 hover:text-windy-cyan transition-colors">{l.name}</a>
           ))}
           <a href={SIGN_IN} className="text-sm text-gray-400 hover:text-windy-cyan transition-colors">Sign in with Windy</a>
-          <a href={DOWNLOAD} className="px-5 py-2.5 bg-gradient-to-r from-windy-teal to-windy-cyan text-windy-dark font-bold rounded-lg text-sm hover:scale-105 transition-transform">
-            Get the desktop app
+          <a href={STATUS} className="px-5 py-2.5 bg-gradient-to-r from-windy-teal to-windy-cyan text-windy-dark font-bold rounded-lg text-sm hover:scale-105 transition-transform">
+            See what's ready
           </a>
         </div>
         <button onClick={() => setOpen(!open)} className="md:hidden text-gray-400" aria-label="Menu">
@@ -38,7 +38,7 @@ export default function Navbar() {
             <a key={l.name} href={l.href} onClick={() => setOpen(false)} className="text-gray-400 hover:text-windy-cyan">{l.name}</a>
           ))}
           <a href={SIGN_IN} className="text-gray-400 hover:text-windy-cyan">Sign in with Windy</a>
-          <a href={DOWNLOAD} className="text-windy-cyan font-semibold">Get the desktop app</a>
+          <a href={STATUS} className="text-windy-cyan font-semibold">See what's ready</a>
         </div>
       )}
     </nav>

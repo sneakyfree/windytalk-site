@@ -1,7 +1,7 @@
 const steps = [
   { n: '1', title: 'Sign in once', body: 'Use your Windy account, the same one for every Windy product. There is no separate Talk login.' },
   { n: '2', title: 'Just talk', body: 'Windy Talk listens while the app is open. It notices when you stop speaking, so there is no button to hold.' },
-  { n: '3', title: 'Hear the answer', body: 'Your agent thinks with Windy Mind and answers in a natural voice, usually starting in under a second.' },
+  { n: '3', title: 'Hear the answer', body: 'Your agent thinks with Windy Mind and answers in a natural voice, usually starting within about two seconds.' },
   { n: '4', title: 'Interrupt anytime', body: 'Start talking while it speaks and it stops to listen, like a real conversation.' },
 ];
 
