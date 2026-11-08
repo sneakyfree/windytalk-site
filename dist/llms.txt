@@ -9,7 +9,7 @@
 
 ## Links
 - [Windy Talk](https://windytalk.com/)
-- [Sign in with Windy](https://app.windyword.ai/auth?ref=windytalk&door=talk)
+- [Sign in with Windy](https://app.windyword.ai/auth?utm_source=windytalk&utm_medium=referral&utm_campaign=ecosystem&door=talk)
 - [Windy privacy policy](https://app.windyword.ai/privacy)
 - [Terms of Service](https://app.windyword.ai/terms)
 - [Windy Word](https://windyword.ai)
