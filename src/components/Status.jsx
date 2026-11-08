@@ -1,12 +1,11 @@
 // Honest status. Update when something actually ships, never ahead of it.
 const ready = [
-  'Desktop app for macOS (Apple-notarized) and Linux (.deb)',
-  'Voice conversations in English',
-  'Sign in with your Windy account',
-  'Free with a Windy account during early access',
+  'The voice engine: live, and tested end to end every 15 minutes',
+  'Sign-in with your Windy account (no separate Talk login)',
+  'No audio stored; conversation text deleted after 7 days without use',
 ];
 const next = [
-  'Windy Talk as a voice mode inside the Windy Word app',
+  'A way for you to use it: Windy Talk as a voice mode inside the Windy Word app (no download is offered today)',
   'More languages',
   'Your agent joining Windy Chat calls',
   'Phone calls with your agent (in design)',

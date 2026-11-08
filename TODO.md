@@ -10,7 +10,8 @@ TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or G
 ## Now (this week)
 Format (Boss labelled standard 2026-11-07T00:02:22Z): - [ ] <what> · OWNER · ADDED · DUE · STATUS · SOURCE, detail as sub-bullets.
 
-- [ ] Deploy #7 (truth fix: no Talk download exists; first audio "within about two seconds") · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-08 (SUN 16:25-16:45Z) · STATUS waiting on Boss stamp + merge · SOURCE Boss BOARD 2026-11-07T16:28:33Z (2)
+- [ ] Deploy #7 (truth fix: no Talk download exists; first audio "within about two seconds") · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-08 (SUN 16:25-16:45Z) · STATUS now (Boss STAMPED 8d3d03b9 08:31:17Z; this head = main merged in, TODO only) · SOURCE Boss BOARD 2026-11-07T16:28:33Z (2); Boss 2026-11-08 08:3xZ BATCH
+  - DEPLOY CONDITION (Boss 11-08): after #151 is live, the BEFORE shows the public engine's WINDYTALK_PUBLIC_HISTORY_DAYS unset or 7 (names-only readback) and that the history sweep ran; otherwise STOP and post.
   - Pages deploy by hand (RUNBOOK): preview first, then main; rollback = redeploy main a8de4c9e's dist/. Then Hub's SEO audit.
 - [ ] UTM at sign-up: Sign in link `?ref=windytalk` -> `utm_source=windytalk&utm_medium=referral&utm_campaign=ecosystem` (door=talk kept) · OWNER Windy Talk · ADDED 2026-11-07 · DUE 2026-11-13 (PR) · STATUS waiting on Hub read of #8; merges only after #7 is live · SOURCE Boss BOARD 2026-11-07T15:48:21Z (7)(c); Marketing Boss (no TLD)
 - [ ] NAME ALIGNMENT windytalk-site -> windy-talk-site (counts given to Git 11-07; Pages has no Git link) · OWNER Windy Git (Talk updates its clone origins) · ADDED 2026-11-07 · DUE none (batches from MON 11-16) · STATUS waiting on Windy Git · SOURCE Boss BOARD 2026-11-06T22:31:24Z
