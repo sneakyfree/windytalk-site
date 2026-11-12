@@ -4,7 +4,6 @@ const ready = [
   'No audio stored; conversation text deleted after 7 days without use',
 ];
 const next = [
-  'The voice engine: paused for now (it ran live, tested end to end every 15 minutes, until November 11, 2026)',
   'A way for you to use it: Windy Talk as a voice mode inside the Windy Word app (no download is offered today)',
   'More languages',
   'Your agent joining Windy Chat calls',
