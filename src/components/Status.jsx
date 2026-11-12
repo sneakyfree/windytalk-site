@@ -1,6 +1,5 @@
 // Honest status. Update when something actually ships, never ahead of it.
 const ready = [
-  'The voice engine: live, and tested end to end every 15 minutes',
   'Sign-in with your Windy account (no separate Talk login)',
   'No audio stored; conversation text deleted after 7 days without use',
 ];

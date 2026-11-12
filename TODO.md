@@ -11,6 +11,8 @@ TODO.md is our culture (Grant, BOARD 2026-11-06T23:57:40Z): a promise, date or G
 Format (Boss labelled standard 2026-11-07T00:02:22Z): - [ ] <what> · OWNER · ADDED · DUE · STATUS · SOURCE, detail as sub-bullets.
 
 - [ ] NAME ALIGNMENT windytalk-site -> windy-talk-site (counts given to Git 11-07; Pages has no Git link) · OWNER Windy Git (Talk updates its clone origins) · ADDED 2026-11-07 · DUE none (batches from MON 11-16) · STATUS waiting on Windy Git · SOURCE Boss BOARD 2026-11-06T22:31:24Z
+- [ ] TRUTH FIX: the page says the voice engine is live; it is PARKED (Grant's order 2026-11-11T01:01:36Z, talk.windyword.ai 502). Hero + Ready today + llms.txt now say paused (PR fix/truth-engine-paused) · OWNER Windy Talk · ADDED 2026-11-12 · DUE 2026-11-12 (today; wrong since 2026-11-11T01:01:36Z, my miss, said on the BOARD 2026-11-12T15:09:38Z) · STATUS waiting on Boss (stamp + GO by sha for the Pages deploy); Legal OK by sha 2026-11-12T15:18:50Z · SOURCE Boss TODO HEALTH 2026-11-12T15:07:53Z (windytalk-site STALE); Talk BOARD
+  - When Grant asks for Talk again (re-enable checklist), the page goes back to live in the same change window, its own GO.
 - [ ] Keep windytalk.com true to the running engine (every line matches windytalk docs/RUNBOOK.md; Hub's SEO audit PASS 6/6) · OWNER Windy Talk · ADDED 2026-11-04 · DUE none (standing) · STATUS now · SOURCE Grant 11-04
 - [ ] Windstorm Labs address: none shown today (Footer: "© 2026 Windstorm Labs LLC." only); if one is ever added, it reads windy-contracts registry/company.json · OWNER Windy Talk · ADDED 2026-11-07 · DUE none (standing) · STATUS now · SOURCE Grant via Boss BOARD 2026-11-06T23:29:54Z
 
