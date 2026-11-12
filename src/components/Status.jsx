@@ -1,10 +1,10 @@
 // Honest status. Update when something actually ships, never ahead of it.
 const ready = [
-  'The voice engine: live, and tested end to end every 15 minutes',
   'Sign-in with your Windy account (no separate Talk login)',
   'No audio stored; conversation text deleted after 7 days without use',
 ];
 const next = [
+  'The voice engine: paused for now (it ran live, tested end to end every 15 minutes, until November 11, 2026)',
   'A way for you to use it: Windy Talk as a voice mode inside the Windy Word app (no download is offered today)',
   'More languages',
   'Your agent joining Windy Chat calls',

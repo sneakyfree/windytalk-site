@@ -22,7 +22,7 @@ export default function Hero() {
             Sign in with Windy
           </a>
         </div>
-        <p className="mt-6 text-sm text-gray-500">No download yet. The voice engine is live; the way you will talk to it is coming inside the Windy Word app.</p>
+        <p className="mt-6 text-sm text-gray-500">No download yet. The voice engine is paused for now; the way you will talk to it is coming inside the Windy Word app.</p>
       </div>
     </section>
   );
